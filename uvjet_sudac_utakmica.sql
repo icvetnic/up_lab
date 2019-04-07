@@ -23,6 +23,8 @@ BEGIN
     RETURN broj;
 END isSudacOnLista;
 
+-- ovaj slash treba tu biti kako bi se funkcija i okidać mogli kreirati iz iste skripte
+/
 
 /*Okidač koji će prije unošenja novog retka za suđenje provjeriti 
 postoji li u listi sudac za određeno natjecanje.*/
@@ -45,7 +47,7 @@ EXCEPTION
     raise_application_error (-20001,'Sudac mora biti na listi za pripadajuće natjecanje.');
 END;
 
-/*Osim okidača, probali smo koristiti funkciju kao constraint, ali nije radilo.*/
+/*Osim okidača, probali smo koristiti funkciju u constraint-u, ali nije radilo.*/
 -- ALTER TABLE sudenje ADD CONSTRAINT CHK_isSudacOnLista CHECK (isSudacOnLista(id_sudac, id_utakmica) <> 0);
 
 -- Provjera da li okidač ispravno radi:
