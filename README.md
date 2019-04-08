@@ -7,5 +7,5 @@ Upute za korištenje:
 4. Ako želimo prepraviti model, prvo obrišemo sve tablice sa *drop_all.sql*.
 5. Ako želimo obrisati sadržaj svih tablica, ali ne i same tablice, pokrenemo *delete_all_rows.sql*.
 
-ER model
-<img src="ER_model.png" width="400">
+## ER model:
+<img src="ER_model.png" width="900">
