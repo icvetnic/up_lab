@@ -49,25 +49,25 @@ END;
 
 -- Provjera da li okidač ispravno radi:
 	-- provjeru vršimo za sljedeće natjecanje koje se već nalazi u bazi:
--- insert into natjecanje values (15, 'Bundesliga', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 7);
+-- insert into natjecanje values (9, 'Premier League', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 1);
 
 	-- moramo najprije unijeti 11 utakmica kako bi mogli unijeti 11 suđenja:
 /*
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (30, (TO_DATE('2004/09/21', 'yyyy/mm/dd')), 15, 1, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (31, (TO_DATE('2004/09/22', 'yyyy/mm/dd')), 15, 3, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (32, (TO_DATE('2004/09/23', 'yyyy/mm/dd')), 15, 4, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (33, (TO_DATE('2004/09/24', 'yyyy/mm/dd')), 15, 1, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (34, (TO_DATE('2004/09/25', 'yyyy/mm/dd')), 15, 1, 3);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (35, (TO_DATE('2004/09/26', 'yyyy/mm/dd')), 15, 1, 4);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (36, (TO_DATE('2004/09/27', 'yyyy/mm/dd')), 15, 3, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (37, (TO_DATE('2004/09/28', 'yyyy/mm/dd')), 15, 4, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (38, (TO_DATE('2004/09/29', 'yyyy/mm/dd')), 15, 1, 2);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (39, (TO_DATE('2004/09/30', 'yyyy/mm/dd')), 15, 1, 3);
-insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (40, (TO_DATE('2004/10/01', 'yyyy/mm/dd')), 15, 1, 4);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (30, (TO_DATE('2004/09/21', 'yyyy/mm/dd')), 9, 1, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (31, (TO_DATE('2004/09/22', 'yyyy/mm/dd')), 9, 3, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (32, (TO_DATE('2004/09/23', 'yyyy/mm/dd')), 9, 4, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (33, (TO_DATE('2004/09/24', 'yyyy/mm/dd')), 9, 1, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (34, (TO_DATE('2004/09/25', 'yyyy/mm/dd')), 9, 1, 3);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (35, (TO_DATE('2004/09/26', 'yyyy/mm/dd')), 9, 1, 4);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (36, (TO_DATE('2004/09/27', 'yyyy/mm/dd')), 9, 3, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (37, (TO_DATE('2004/09/28', 'yyyy/mm/dd')), 9, 4, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (38, (TO_DATE('2004/09/29', 'yyyy/mm/dd')), 9, 1, 2);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (39, (TO_DATE('2004/09/30', 'yyyy/mm/dd')), 9, 1, 3);
+insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (40, (TO_DATE('2004/10/01', 'yyyy/mm/dd')), 9, 1, 4);
 */
 
 	-- sudac mora biti na listi za to natjecanje:
--- insert into lista (id_sudac, id_natjecanje) values (1, 15);
+-- insert into lista (id_sudac, id_natjecanje) values (1, 9);
 
 	-- unosimo 11 redaka za suđenje, na 11 unosu bi se trebala dogoditi iznimka:
 /*

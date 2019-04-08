@@ -52,22 +52,22 @@ insert into ekipa values (12, 'Arsenal U17-F', 5, 4);
 
 
 insert into natjecanje (id, naziv, datum_pocetka, datum_zavrsetka, sezona, id_vrsta) 
-    values (1, 'Premier League', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 1);
-insert into natjecanje values (2, 'Championship', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 2);
-insert into natjecanje values (3, 'La Liga', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 3);
-insert into natjecanje values (4, 'Ligue 1', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 4);
-insert into natjecanje values (5, 'Serie A', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 5);
-insert into natjecanje values (6, 'Eredivise', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 6);
-insert into natjecanje values (7, 'Bundesliga', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 7);
-insert into natjecanje values (8, 'MLS', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), ' 2003/2004', 8);
-insert into natjecanje values (9, 'Premier League', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 1);
-insert into natjecanje values (10, 'Championship', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 2);
-insert into natjecanje values (11, 'La Liga', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 3);
-insert into natjecanje values (12, 'Ligue 1', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 4);
-insert into natjecanje values (13, 'Serie A', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 5);
-insert into natjecanje values (14, 'Eredivise', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 6);
-insert into natjecanje values (15, 'Bundesliga', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 7);
-insert into natjecanje values (16, 'MLS', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), ' 2004/2005', 8);
+    values (1, 'Premier League', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 1);
+insert into natjecanje values (2, 'Championship', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 2);
+insert into natjecanje values (3, 'La Liga', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 3);
+insert into natjecanje values (4, 'Ligue 1', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 4);
+insert into natjecanje values (5, 'Serie A', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 5);
+insert into natjecanje values (6, 'Eredivise', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 6);
+insert into natjecanje values (7, 'Bundesliga', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 7);
+insert into natjecanje values (8, 'MLS', (TO_DATE('2003/08/21', 'yyyy/mm/dd')), (TO_DATE('2004/05/13', 'yyyy/mm/dd')), '2003/2004', 8);
+insert into natjecanje values (9, 'Premier League', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 1);
+insert into natjecanje values (10, 'Championship', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 2);
+insert into natjecanje values (11, 'La Liga', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 3);
+insert into natjecanje values (12, 'Ligue 1', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 4);
+insert into natjecanje values (13, 'Serie A', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 5);
+insert into natjecanje values (14, 'Eredivise', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 6);
+insert into natjecanje values (15, 'Bundesliga', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 7);
+insert into natjecanje values (16, 'MLS', (TO_DATE('2004/08/24', 'yyyy/mm/dd')), (TO_DATE('2005/05/11', 'yyyy/mm/dd')), '2004/2005', 8);
 
 
 insert into utakmica (id, datum, id_natjecanje, id_domacini, id_gosti) values (1, (TO_DATE('2003/08/21', 'yyyy/mm/dd')), 1, 1, 2);
@@ -80,6 +80,7 @@ insert into utakmica values (7, (TO_DATE('2003/09/24', 'yyyy/mm/dd')), 1, 4, 3);
 insert into utakmica values (8, (TO_DATE('2003/09/24', 'yyyy/mm/dd')), 1, 2, 1);
 insert into utakmica values (9, (TO_DATE('2003/08/21', 'yyyy/mm/dd')), 5, 9, 10);
 insert into utakmica values (10, (TO_DATE('2003/08/22', 'yyyy/mm/dd')), 5, 11, 12);
+
 
 
 insert into sudac (id, ime, prezime, datum_rodenja, telefon, adresa, id_rang, pbr_stanovanja, pbr_rodjenja) 

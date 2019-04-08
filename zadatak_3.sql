@@ -12,6 +12,6 @@ FROM sudac JOIN rangsuca
     JOIN mjesto
     ON sudac.pbr_stanovanja = mjesto.pbr
 WHERE mjesto.naziv = 'Zagreb' AND
-    natjecanje.sezona = ' 2003/2004'
+    natjecanje.sezona = '2003/2004'
 GROUP BY sudac.id, sudac.ime, sudac.prezime, rangsuca.naziv
 ORDER BY sudac.id
