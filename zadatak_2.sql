@@ -1,5 +1,7 @@
 /*Želimo da sustav onemogući da nekog suca delegiram na više od 10 utakmica
 nekog natjecanja u jednoj sezoni*/
+
+/*Funkcija vraća broj koliko je utakmica neki sudac odsudio u nekom natjecanju.*/
 CREATE OR REPLACE FUNCTION sudacJudgeNUtakmica(new_sudac_id IN NUMBER, new_utakmica_id IN NUMBER)
     RETURN NUMBER
 IS broj NUMBER;

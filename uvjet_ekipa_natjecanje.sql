@@ -27,8 +27,9 @@ END ekipaKompatibilnaNatjecanje;
 
 /
 
-/*Okidač koji će prije unošenja novog retka za suđenje provjeriti 
-postoji li u listi sudac za određeno natjecanje.*/
+/*Okidač koji će prije unošenja novog retka u tablicu UTAKMICA provjeriti 
+može li domaća i gostujuća ekipa sudjelovati na natjecanju. Ako ne mogu,
+izazvati će se iznimka.*/
 
 CREATE OR REPLACE TRIGGER ekipa_natjecanje_trigger
 BEFORE INSERT
